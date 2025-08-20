@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki de Fiódor Dostoievski</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="icon" href="../../img/logo....png"  alt="" height="500"  width="500">
+</head>
+<body>
+
+<div class="progress-bar-container">
+    <div class="progress-bar"></div>
+</div>
+
+
+
+
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Fiódor Dostoievski: El Maestro de la Psicología Humana</h1>
+            <p>Descubre la vida y el legado literario de uno de los más grandes novelistas de la historia.</p>
+        </div>
+        <div class="banner-carousel">
+            <img src="1u0GrudVM9XWasiLM4an_7g.jpg" alt="Retrato de Fiódor Dostoievski por Perov" class="banner-image active">
+            <img src="9672F91A-126B-416D-889C-848BD2C4.jpg" alt="Dostoievski" class="banner-image">
+            <img src="crimencastigo.jpg" alt="Fiódor Dostoievski" class="banner-image">
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>Introducción</h2>
+            <p>
+                Fiódor Mijáilovich Dostoievski (1821-1881) fue uno de los escritores rusos más influyentes, conocido por explorar la psicología humana en un contexto de complejidad social, política y espiritual. Sus novelas son un profundo análisis de la condición humana, la moralidad y la existencia.
+            </p>
+        </section>
+
+        <section class="biography-section">
+            <h2>Biografía Detallada</h2>
+            <div class="biography-column">
+                <h3>Primeros Años y Condena</h3>
+                <p>
+                    Nacido en Moscú, Dostoievski comenzó su carrera como ingeniero militar antes de dedicarse a la literatura. En 1849, fue arrestado por su participación en un grupo intelectual radical y condenado a muerte, aunque la pena fue conmutada por trabajos forzados en Siberia, una experiencia que marcaría profundamente su obra.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>El Retorno y Grandes Obras</h3>
+                <p>
+                    Tras su regreso, Dostoievski escribió sus obras más célebres. Se centró en la exploración de las profundidades del alma humana, con personajes atormentados que luchan con dilemas morales, fe y nihilismo. Este período incluye sus novelas más conocidas y complejas.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>Obras Maestras</h3>
+                <p>
+                    Entre sus novelas más destacadas se encuentran Crimen y Castigo, que examina la culpa y la redención; Los hermanos Karamázov, una épica sobre la fe, el libre albedrío y la moralidad; y El idiota, que presenta a un "hombre absolutamente bueno" en una sociedad corrupta.
+                </p>
+            </div>
+        </section>
+
+        <section class="media-section">
+            <h2>Multimedia</h2>
+            <div class="video-container">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/RaMzd1nRqHo?si=dJsicPgEWQ7pQFaJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        
+        </section>
+
+        <section class="interactive-section">
+            <h2>Participa en nuestra Wiki</h2>
+          <form action="https://formspree.io/f/xwpqdqpo" method="POST">
+    
+                <label for="obra">¿Cuál es tu obra favorita de Dostoievski?</label>
+                <input type="text" id="obra" name="obra" list="obras-lista" required>
+                <datalist id="obras-lista">
+                    <option value="Crimen y Castigo"></option>
+                    <option value="Los hermanos Karamázov"></option>
+                    <option value="El idiota"></option>
+                    <option value="Memorias del subsuelo"></option>
+                </datalist>
+
+                <div class="form-group">
+                    <label for="opinion">Nivel de apreciación:</label>
+                    <input type="range" id="opinion" name="opinion" min="0" max="100" value="90" oninput="this.nextElementSibling.value=this.value">
+                    <output>90</output>
+                </div>
+                
+            
+                
+                <div class="form-group">
+                    <label for="color-picker">Elige un color para tu texto:</label>
+                    <input type="color" id="color-picker" name="color-picker" value="#5a2e1d">
+                </div>
+
+<button type="submit" class="nav-button">Enviar</button>
+
+            </form>
+        </section>
+
+        <section class="meter-section">
+            <h2>Relevancia Histórica</h2>
+            <p>La influencia de Dostoievski en la literatura mundial:</p>
+            <meter value="99" min="0" max="100" low="33" high="66" optimum="100">99%</meter>
+        </section>
+
+        <section class="nav-section">
+            <h2>Explora más</h2>
+            <p>Haz clic en el botón para ir a mi página de blog y conocerme.</p>
+            <a href="../../index.html" id="enlace-a-otra-pagina" class="nav-button">Mi Diario</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wiki no oficial de Fiódor Dostoievski. Todos los derechos reservados a Wildania.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

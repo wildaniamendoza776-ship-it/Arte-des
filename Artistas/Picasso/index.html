@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki de Pablo Picasso</title>
+    <link rel="stylesheet" href="estilos.css">
+     <link rel="icon" href="../../img/logo....png"  alt="" height="500"  width="500">
+</head>
+<body>
+<div class="progress-bar-container">
+    <div class="progress-bar"></div>
+</div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Pablo Picasso: El Genio del Cubismo</h1>
+            <p>Descubre la vida y el legado del artista más influyente del siglo XX.</p>
+        </div>
+        <div class="banner-carousel">
+            <img src="pablo-picasso.jpg" alt="Pablo Picasso en 1908" class="banner-image active">
+            <img src="cuadro-guernica-de-pablo-picasso.jpg" alt="Guernica de Picasso" class="banner-image">
+            <img src="obras-pablo-picasso-og.jpg" alt="Pablo Picasso mayor" class="banner-image">
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>Introducción</h2>
+            <p>
+                Pablo Picasso (1881-1973) fue un pintor y escultor español, co-fundador del movimiento cubista y uno de los artistas más importantes y prolíficos de la historia. Su inmensa obra abarca una variedad de estilos y medios, y su influencia en el arte moderno es incalculable.
+            </p>
+        </section>
+
+        <section class="biography-section">
+            <h2>Biografía Detallada</h2>
+            <div class="biography-column">
+                <h3>Primeros Años y Periodo Azul</h3>
+                <p>
+                    Nacido en Málaga, España, Picasso mostró un talento precoz desde la infancia. Tras mudarse a París, atravesó su "Periodo Azul" (1901-1904), caracterizado por obras melancólicas en tonos fríos, y el "Periodo Rosa" (1904-1906), con temas más alegres de acróbatas y arlequines.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>La Revolución del Cubismo</h3>
+                <p>
+                    Junto con Georges Braque, Picasso desarrolló el Cubismo, un estilo revolucionario que fragmentaba los objetos en formas geométricas para mostrarlos desde múltiples perspectivas simultáneamente. Obras como "Las Señoritas de Avignon" marcaron el inicio de esta vanguardia.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>Obras Maestras</h3>
+                <p>
+                    Su vasta producción incluye "El Guernica", una poderosa denuncia de la Guerra Civil Española; "Las Señoritas de Avignon", una obra seminal del cubismo; y numerosas esculturas y cerámicas. Picasso continuó innovando hasta el final de su vida.
+                </p>
+            </div>
+        </section>
+
+        <section class="media-section">
+            <h2>Multimedia</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uhGrpx0emr4?si=qmhwgHaPv_6FVzQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+        <section class="interactive-section">
+            <h2>Participa en nuestra Wiki</h2>
+            <form action="https://formspree.io/f/xwpqdqpo" method="POST">
+                <label for="obra">¿Cuál es tu obra favorita de Picasso?</label>
+                <input type="text" id="obra" name="obra" list="obras-lista" required>
+                <datalist id="obras-lista">
+                    <option value="El Guernica"></option>
+                    <option value="Las Señoritas de Avignon"></option>
+                    <option value="Dora Maar con gato"></option>
+                    <option value="La mujer que llora"></option>
+                </datalist>
+
+                <div class="form-group">
+                    <label for="opinion">Nivel de apreciación:</label>
+                    <input type="range" id="opinion" name="opinion" min="0" max="100" value="75" oninput="this.nextElementSibling.value=this.value">
+                    <output>75</output>
+                </div>
+              
+                
+                <div class="form-group">
+                    <label for="color-picker">Elige un color para tu texto:</label>
+                    <input type="color" id="color-picker" name="color-picker" value="#0056b3">
+                </div>
+
+                <button type="submit" class="nav-button">Enviar</button>
+            </form>
+        </section>
+
+        <section class="meter-section">
+            <h2>Relevancia Histórica</h2>
+            <p>La influencia de Picasso en el arte moderno:</p>
+            <meter value="98" min="0" max="100" low="33" high="66" optimum="100">98%</meter>
+        </section>
+
+        <section class="nav-section">
+            <h2>Explora más</h2>
+            <p>Haz clic en el botón para ir a una página con más obras y análisis.</p>
+            <a href="../../Galeria/index.html" id="enlace-a-otra-pagina" class="nav-button">Ver Galería de Obras</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wiki no oficial de Pablo Picasso. Todos los derechos reservados a Wildania.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

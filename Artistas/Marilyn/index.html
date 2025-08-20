@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki de Marilyn Monroe</title>
+    <link rel="stylesheet" href="estilos.css">
+     <link rel="icon" href="../../img/logo....png"  alt="" height="500"  width="500">
+</head>
+<body>
+
+<div class="progress-bar-container">
+    <div class="progress-bar"></div>
+</div>
+
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Marilyn Monroe: El Icono de Hollywood</h1>
+            <p>Descubre la vida de la actriz, modelo y símbolo sexual más famosa del siglo XX.</p>
+        </div>
+        <div class="banner-carousel">
+            <img src="marilyn_monroe_tips_de_belleza.jpg" alt="" class="banner-image active">
+            <img src="6F7MXV43KBHO7JPIP2UYD36Q5Q.jpg" alt="" class="banner-image">
+            <img src="b6d79b5220ae099e1ceee41b99aa8d83.jpg" alt="" class="banner-image">
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>Introducción</h2>
+            <p>
+                Marilyn Monroe (1926-1962), nacida como Norma Jeane Mortenson, fue una actriz, modelo y cantante estadounidense. Su carisma, belleza y talento la convirtieron en una de las estrellas de cine más legendarias de todos los tiempos. A pesar de su fama, su vida estuvo marcada por la vulnerabilidad y la búsqueda de su verdadera identidad.
+            </p>
+        </section>
+
+        <section class="biography-section">
+            <h2>Biografía Detallada</h2>
+            <div class="biography-column">
+                <h3>Primeros Años</h3>
+                <p>
+                    Norma Jeane tuvo una infancia difícil, pasando gran parte de su niñez en hogares de acogida y orfanatos. Comenzó su carrera como modelo a mediados de la década de 1940, lo que la llevó a Hollywood, donde adoptó el nombre artístico de Marilyn Monroe y se tiñó el cabello de rubio platino, creando su icónica imagen.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>El Ascenso a la Fama</h3>
+                <p>
+                    A lo largo de los años 50, Marilyn protagonizó películas que la convirtieron en un símbolo sexual y una comediante de gran éxito. Películas como Los caballeros las prefieren rubias, Cómo casarse con un millonario y Con faldas y a lo loco la consolidaron como una de las estrellas más rentables de la industria.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>Legado y Vida Personal</h3>
+                <p>
+                    A pesar de su éxito profesional, Marilyn luchó con problemas personales y de salud mental. Se casó con figuras prominentes como Joe DiMaggio y Arthur Miller. Su repentina muerte a los 36 años conmocionó al mundo y la inmortalizó como un mito cultural, cuyo legado perdura hasta el día de hoy.
+                </p>
+            </div>
+        </section>
+
+        <section class="slider-3d-section">
+            <h2>Galería de Imágenes</h2>
+            <div class="slider-3d">
+                <figure class="slider-item" style="--i:1;">
+                    <img src="1.jpg" alt="">
+                </figure>
+                <figure class="slider-item" style="--i:2;">
+                    <img src="2.jpg" alt="">
+                </figure>
+                <figure class="slider-item" style="--i:3;">
+                    <img src="3.jpg" alt="Marilyn Monroe en una sesión de fotos">
+                </figure>
+                <figure class="slider-item" style="--i:4;">
+                    <img src="4.jpg" alt="">
+                </figure>
+                <figure class="slider-item" style="--i:5;">
+                    <img src="5.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+<br>
+<br>
+        <section class="interactive-section">
+            <h2>Participa en nuestra Wiki</h2>
+            <form action="https://formspree.io/f/xwpqdqpo" method="POST">
+                <label for="obra">¿Cuál es tu película favorita de Marilyn?</label>
+                <input type="text" id="obra" name="obra" list="obras-lista" required>
+                <datalist id="obras-lista">
+                    <option value="Con faldas y a lo loco"></option>
+                    <option value="Los caballeros las prefieren rubias"></option>
+                    <option value="La tentación vive arriba"></option>
+                    <option value="Niágara"></option>
+                </datalist>
+
+                <div class="form-group">
+                    <label for="opinion">Nivel de apreciación:</label>
+                    <input type="range" id="opinion" name="opinion" min="0" max="100" value="95" oninput="this.nextElementSibling.value=this.value">
+                    <output>95</output>
+                </div>
+                
+               
+                
+                <div class="form-group">
+                    <label for="color-picker">Elige un color para tu texto:</label>
+                    <input type="color" id="color-picker" name="color-picker" value="#b00c6f">
+                </div>
+
+                <button type="submit" class="nav-button">Enviar</button>
+            </form>
+        </section>
+
+        <section class="meter-section">
+            <h2>Relevancia Histórica</h2>
+            <p>La influencia de Marilyn Monroe en la cultura popular:</p>
+            <meter value="98" min="0" max="100" low="33" high="66" optimum="100">98%</meter>
+        </section>
+
+        <section class="nav-section">
+            <h2>Explora más</h2>
+            <p>Haz clic en el botón para ir a una página sobre la Historia del arte.</p>
+            <a href="../../Historia/index.html" id="enlace-a-otra-pagina" class="nav-button">Ir a Historia del Arte</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Wiki no oficial de Marilyn Monroe. Todos los derechos reservados a Wildania.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

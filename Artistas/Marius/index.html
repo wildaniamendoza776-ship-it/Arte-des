@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki de Marius Petipa</title>
+    <link rel="stylesheet" href="estilos.css">
+     <link rel="icon" href="../../img/logo....png"  alt="" height="500"  width="500">
+</head>
+<body>
+<div class="progress-bar-container">
+    <div class="progress-bar"></div>
+</div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Marius Petipa: El Maestro del Ballet Clásico</h1>
+            <p>Descubre la vida y el legado del legendario coreógrafo francés.</p>
+        </div>
+        <div class="banner-carousel">
+            <img src="merlin_148257537_1fda496a-77eb-4869-b1cc-ee113eca4477-videoSixteenByNineJumbo1600.jpg" alt="" class="banner-image active">
+            <img src="marius-petipa-susyq.jpg" alt="" class="banner-image">
+            <img src="dsuerhuw.jpg" alt="Petipa" class="banner-image">
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>Introducción</h2>
+            <p>
+                Marius Petipa (1818-1910) fue un coreógrafo y bailarín francés, considerado uno de los más grandes maestros en la historia del ballet clásico. Durante su larga carrera en el Teatro Imperial de San Petersburgo, Petipa elevó el ballet a nuevas alturas de grandeza artística, creando obras maestras que aún hoy se representan en los escenarios de todo el mundo.
+            </p>
+        </section>
+
+        <section class="biography-section">
+            <h2>Biografía Detallada</h2>
+            <div class="biography-column">
+                <h3>Primeros Años</h3>
+                <p>
+                    Nacido en , Francia, en una familia de artistas, Petipa recibió su primera formación de su padre, Jean-Antoine Petipa, un destacado bailarín y coreógrafo. Tras una exitosa carrera como bailarín en Francia y España, se trasladó a San Petersburgo en 1847, una decisión que cambiaría para siempre el mundo del ballet.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>El Maestro del Ballet Imperial</h3>
+                <p>Marsella
+                    En San Petersburgo, Petipa ascendió rápidamente, convirtiéndose en el "Premier Maître de Ballet" de los Teatros Imperiales. Durante este período, creó más de 50 ballets de larga duración y numerosas piezas cortas. Su estilo se caracterizó por la grandiosidad, la estructura formal, y la habilidad de contar historias a través del movimiento.
+                </p>
+            </div>
+            <div class="biography-column">
+                <h3>Obras Maestras</h3>
+                <p>
+                    Entre sus obras más famosas se encuentran El Lago de los Cisnes, La Bella Durmiente, El Cascanueces, Don Quijote y La Bayadère. Estas coreografías no solo son técnicamente desafiantes, sino que también son ricas en narración, escenografía y vestuario.
+                </p>
+            </div>
+        </section>
+
+        <section class="media-section">
+            <h2>Multimedia</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+
+            <div class="audio-container">
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                    Tu navegador no soporta la etiqueta de audio.
+                </audio>
+                <p>Fragmento musical de una de sus obras.</p>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <h2>Participa en nuestra Wiki</h2>
+            <form action="https://formspree.io/f/xwpqdqpo" method="POST">
+                <label for="obra">¿Cuál es tu obra favorita de Petipa?</label>
+                <input type="text" id="obra" name="obra" list="obras-lista" required>
+                <datalist id="obras-lista">
+                    <option value="El Lago de los Cisnes"></option>
+                    <option value="La Bella Durmiente"></option>
+                    <option value="Don Quijote"></option>
+                    <option value="La Bayadère"></option>
+                </datalist>
+
+                <div class="form-group">
+                    <label for="opinion">Nivel de apreciación:</label>
+                    <input type="range" id="opinion" name="opinion" min="0" max="100" value="50" oninput="this.nextElementSibling.value=this.value">
+                    <output>50</output>
+                </div>
+                
+               
+                
+                <div class="form-group">
+                    <label for="color-picker">Elige un color para tu texto:</label>
+                    <input type="color" id="color-picker" name="color-picker" value="#b1293a">
+                </div>
+
+                <button type="submit" class="nav-button">Enviar</button>
+            </form>
+        </section>
+
+        <section class="meter-section">
+            <h2>Relevancia Histórica</h2>
+            <p>La influencia de Petipa en el ballet clásico:</p>
+            <meter value="95" min="0" max="100" low="33" high="66" optimum="100">95%</meter>
+        </section>
+
+        <section class="nav-section">
+            <h2>Explora más</h2>
+            <p>Haz clic en el botón para ir a una página con más recursos.</p>
+            <a href="../index.html" id="enlace-a-otra-pagina" class="nav-button">Ir a otra página</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wiki no oficial de Marius Petipa. Todos los derechos reservados a Wildania.</p>
+    </footer>
+
+    <script src="scritp.js"></script>
+</body>
+</html>
